@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,600);
+
+@import url(https://fonts.googleapis.com/css?family=Cinzel:300,600);
+
+body{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #998c5a;
+}
+h1{
+font-family: 'Cinzel', serif;
+  padding: 10px;
+  font-size: 60px;
+  background-color: #0b0b0c;
+  color: #c9b8ab;
+}
+.title-row{
+  background-color: #0b0b0c;
+}
+div.image-bar{
+  background-image: url("../images/sigil-bg.png");
+  background-repeat: repeat;
+  background-color: #0b0b0c;
+  background-size: auto;
+}
+div.solid{
+background-color: #0b0b0c;
+}
+#terrors{
+  color: #f8f6f0;
+  font-size:20px;
+  text-align:center;
+  font-weight: bold;
+}
+#timer{
+  background-color: #f8f6f0;
+  color: #0b0b0c;
+  font-size:20px;
+  text-align:center;
+  font-weight: bold;
+}
+#timer-wrap{
+  background-color: #f8f6f0;
+  color: #6c757d;
+  font-size:20px;
+  text-align:center;
+  border-color:  #6c757d;
+  border-width: 2px;
+  padding: 5px;
+  font-weight: bold;
+}
+.quiz-div{
+  background-color: #f8f6f0;
+}
+.question{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+  font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    background-color: #998c5a;
+    color: #0b0b0c;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: #866041;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 225px;
+  margin-top: 40px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+    <title>Game of Thrones Trivia</title>
+</head>
+
+<body>
+    <div class="container mt-3 border border-secondary rounded">
+        <div class="row">
+            <div class="col-md-12 image-bar">
+                <img src="assets/images/sigils1.png" class="img-fluid" alt="sigils image">
+                <img src="assets/images/sigils2.png" class="img-fluid" alt="sigils image">
+            </div>
+        </div>
+        <div class="row pb=1 solid">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10 border-bottom">
+                <h1>Game of Thrones Trivia</h1>
+            <div class="terrors pb-1" style="display:none" id="terrors">The night is dark and full of trivia. Try again!</div>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+        <div class="row p-3 solid">
+            <div class="col-md-6">
+                <img src="assets/images/throne.png" class="img-fluid rounded" alt="throne image">
+            </div>
+            <div class="col-md-6 rounded quiz-div border">
+                <div class="mt-2 pt-2 rounded timer">
+                    <p id="timer-wrap">
+                        <i class="fas fa-hourglass-start"></i>
+                        <span id="timer"></span>
+                    </p>
+                </div>
+                <div class="quiz-container">
+                    <div id="quiz"></div>
+                </div>
+                <button id="previous">Previous Question</button>
+                <button id="next">Next Question</button>
+                <button id="submit">Submit Quiz</button>
+                <div id="results"></div>
+                <div class="px-3" id="reset"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 image-bar">
+                <img src="assets/images/sigils1.png" class="img-fluid" alt="sigils image">
+                <img src="assets/images/sigils2.png" class="img-fluid" alt="sigils image">
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/app2.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>GifTastic API</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- form field -->
+                    <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control mr-sm-2" type="text" id="giphy-input" for="giphy-input" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" id="add-giphy" type="submit">Search</button>
+                    </form>
+                    <!-- Everything you want hidden at 940px or less, place within here -->
+                    <div class="nav-collapse collapse">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <!-- Begin page content -->
+    <div class="jumbotron jumbotron-fluid">
+        <main role="main" class="container">
+            <h1 class="mt-5 display-3">GifTastic</h1>
+            <p class="lead">    
+            <span style="font-size:1em; color:rgb(35, 156, 75)" aria-hidden="true"><i class="fas fa-camera-retro fa-2x"></i></span>
+            Choose any button for oodles of GIPHYs, then start or stop their animation with a click. When you want more choices, use
+            the search box to find more.</p>
+            <p class="lead">
+            <span style="font-size:1em; color:rgb(35, 156, 75)" aria-hidden="true"><i class="far fa-smile fa-2x"></i></span>
+            Marvel in amazement as your GIPHY topic gets added to the list!</p>
+    </div>
+    <!--put dynamically created buttons here -->
+    </main>
+    <div id="buttons" class="p-2 text-center"></div>
+    <div class="row">
+        <!--put dynamically created giphy arrays here -->
+        <div class="col-md-12 giphy-view" id="giphy-view">
+        </div>
+    </div>
+    <!-- sticky footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-muted">
+                <!-- GIPHY trademark -->
+                <img src="assets/images/200-logo.gif" alt="powered by GIPHY image">
+            </span>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/api.js"></script>
+
+</body>
+
+</html>
